@@ -44,7 +44,7 @@ setup(
     dependency_links=[
         'git+https://github.com/BayLibre/libregice.git#egg=LibRegice',
         'git+https://github.com/BayLibre/regice-clock.git#egg=RegiceClock',
-        'git+https://github.com/BayLibre/regice-pkg.git#egg=RegicePkg',
+        'git+https://github.com/BayLibre/regice-common.git#egg=RegiceCommon',
     ],
     package_data={'RegiceSTM32': ['stm32/*.svd']},
     include_package_data=True,
