@@ -256,6 +256,7 @@ class STM32F407(Device):
             Init the clock tree
         """
         self.tree = ClockTree(self)
+        self.tree.add_peripheral(self.RCC)
         self.init_clock_sources()
         self.init_plls()
         self.init_muxs()
